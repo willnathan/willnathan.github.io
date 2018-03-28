@@ -3,12 +3,19 @@
 body {
   background-color: #772252;
   color: #ffffff;
-  padding: 75px;
+  padding: 0px; margin: 0px;
 }
 
-@media (min-width: 800px) {
-    body {
-      width: 50%;
+.content {
+  z-index: 2;
+  padding: 75px 0px 0px 80px;
+  width: 50%;
+}
+
+@media (max-width: 800px) {
+    .content {
+      padding: 20px;
+      width: auto;
     }
 }
 
@@ -16,11 +23,12 @@ h1 {
   font-size: 80px;
   font-family: 'Molle', cursive;
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 h2 {
   margin-top: 0px;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
   font-size: 25px;
   font-family: 'Montserrat Alternates', sans-serif; 
 }
@@ -48,10 +56,6 @@ img.insta, img.twitter {
 
 img.insta {
   filter: invert(100%);
-}
-
-.content {
-  z-index: 2;
 }
 
 .square:first-child {
