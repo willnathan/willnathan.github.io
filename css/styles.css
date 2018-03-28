@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Molle:400i|Montserrat+Alternates|Roboto:300');
+
+body {
+  background-color: #772252;
+  color: #ffffff;
+  padding: 75px;
+}
+
+@media (min-width: 800px) {
+    body {
+      width: 50%;
+    }
+}
+
+h1 {
+  font-size: 80px;
+  font-family: 'Molle', cursive;
+  margin-bottom: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 45px;
+  font-size: 25px;
+  font-family: 'Montserrat Alternates', sans-serif; 
+}
+
+p {
+  font-family: 'Roboto', sans-serif; 
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  margin: 25px 0px;
+  line-height: 1.25;
+}
+
+a {
+  color: #bbc8ed;
+}
+
+a:hover {
+  color: #dee4f4;
+}
+
+img.insta, img.twitter {
+  width: 20px;
+  margin-right: 7px;
+}
+
+img.insta {
+  filter: invert(100%);
+}
+
+.content {
+  z-index: 2;
+}
+
+.square:first-child {
+  background-color: blue;
+  background-image: url(../img/me.jpg);
+  background-size: cover;
+  z-index: -1 !important;
+}
