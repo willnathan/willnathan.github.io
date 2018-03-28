@@ -9,7 +9,7 @@ body {
 .content {
   z-index: 2;
   padding: 75px 0px 0px 80px;
-  width: 50%;
+  width: 60%; max-width: 600px;
 }
 
 @media (max-width: 800px) {
