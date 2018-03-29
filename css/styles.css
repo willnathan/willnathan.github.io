@@ -37,10 +37,10 @@ h2 {
 
 p {
   font-family: 'Roboto', sans-serif; 
-  letter-spacing: 0.5px;
+  letter-spacing: 0.6px;
   font-size: 16px;
   margin: 25px 0px;
-  line-height: 1.25;
+  line-height: 1.4;
 }
 
 a {
@@ -60,9 +60,13 @@ img.insta {
   filter: invert(100%);
 }
 
+.square {
+  opacity: 0.61;
+}
 .square:first-child {
   background-color: blue;
   background-image: url(../img/me.jpg);
   background-size: cover;
+  opacity: 1;
   z-index: -1 !important;
 }
