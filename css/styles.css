@@ -4,6 +4,7 @@ body {
   background-color: #772252;
   color: #ffffff;
   padding: 0px; margin: 0px;
+  overflow-x: hidden;
 }
 
 .content {
