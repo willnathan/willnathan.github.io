@@ -2,7 +2,7 @@
 
 body {
   background-color: #C4005B;
-  color: #000000;
+  color: #ffffff;
   padding: 0px; margin: 0px;
   overflow-x: hidden;
 }
@@ -44,7 +44,7 @@ p {
 }
 
 a {
-  color: #bbc8ed;
+  color: #000000;
 }
 
 a:hover {
