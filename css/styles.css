@@ -43,6 +43,12 @@ p {
   line-height: 1.4;
 }
 
+.inline-header {
+  font-family: 'Poppins', serif;
+  font-size: 40px;
+  line-height: 100%;
+}
+
 a {
   color: #e3fdb1;
 }
@@ -52,7 +58,7 @@ a:hover {
 }
 
 #will-face {
-  width: 35%;
+  width: 30%;
   border-radius: 3%;
 }
 
