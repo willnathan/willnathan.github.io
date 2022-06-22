@@ -57,6 +57,10 @@ a:hover {
   color: green;
 }
 
+.email {
+  color: #001ECA;
+}
+
 #will-face {
   width: 30%;
   border-radius: 3%;
@@ -69,7 +73,7 @@ img.insta, img.twitter {
 }
 
 img.insta {
-  filter: invert(100%);
+  
 }
 
 .square {
